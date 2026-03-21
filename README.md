@@ -5,9 +5,9 @@ WIP Opencore EFI for ASUS Chromebook Flip C434TA-DSM4T running MacOS Sonoma (14)
 ## To Do
 
 - [x] Boots?
-- [ ] Map USB Ports?
-- [ ] Fix Audio
-- [ ] Fix Touchpad
+- [x] Map USB Ports
+- [ ] Fix Audio?
+- [x] Fix Touchpad
 - Double check the following for ACPI:
   - [x] SSDT-PLUG-ALT.aml
   - [x] Top row keyboard remap SSDT
