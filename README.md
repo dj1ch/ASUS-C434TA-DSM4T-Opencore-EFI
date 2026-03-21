@@ -9,19 +9,20 @@ WIP Opencore EFI for ASUS Chromebook Flip C434TA-DSM4T running MacOS Sonoma (14)
 - [ ] Fix Audio
 - [ ] Fix Touchpad
 - Double check the following for ACPI:
-  - [ ] SSDT-PLUG-ALT.aml
-  - [ ] Top row keyboard remap SSDT
-  - [ ] Fake ambient light sensor SSDT
+  - [x] SSDT-PLUG-ALT.aml
+  - [x] Top row keyboard remap SSDT
+  - [x] Fake ambient light sensor SSDT
   - [ ] FixHPET SSDT generated
 - Double check the following for Kexts:
-  - [ ] eMMC Driver
-  - [ ] Replace Default VoodooPS2 Kext
-  - [ ] EC Kext for functional EC/Keyboard backlight
+  - [x] eMMC Driver
+  - [x] Replace Default VoodooPS2 Kext
+  - [x] EC Kext for functional EC/Keyboard backlight
 - Config.plist patches:
-  - [ ] Set SMBIOS
-  - [ ] ProtectMemoryRegions
-  - [ ] PciRoot(0x0)/Pci(0x2,0x0) 
-- [ ] VoodooI2CHID.kext for touchscreen (due to having a C434T)
+  - [x] Set SMBIOS
+  - [x] ProtectMemoryRegions
+  - [x] PciRoot(0x0)/Pci(0x2,0x0) 
+- [x] VoodooI2CHID.kext for touchscreen (due to having a C434T)
+- [ ] Merge HPET patches (in ACPI for ACPI->Patches) 
 
 Source: <https://docs.meghan6.com/docs/installingmacos/installing>
 
