@@ -20,14 +20,17 @@ WIP Opencore EFI for ASUS Chromebook Flip C434TA-DSM4T running MacOS Sonoma (14)
   - [x] Set SMBIOS
   - [x] ProtectMemoryRegions
   - [x] PciRoot(0x0)/Pci(0x2,0x0) 
-- [x] VoodooI2CHID.kext for touchscreen (due to having a C434T)
+- [x] ~~VoodooI2CHID.kext for touchscreen (due to having a C434T)~~ Disabled due to damaged touchscreen, feel free to enable if you'd like
 - [x] Merge HPET patches (in ACPI for ACPI->Patches) 
+- [x] Disable RMI-related patches and kexts
 
 # Post-Install Tasks
 
-- [ ] Fix Audio
+- ~~[ ] Fix Audio~~ Doesn't work
 - [ ] Fix sleep/power issues
-- [ ] WiFi-related issues with itlwm
+- [x] WiFi-related issues with itlwm
+- [x] Update OpenCore
+- [ ] Fix OpenCore not booting
 
 Source: <https://docs.meghan6.com/docs/installingmacos/installing>
 
