@@ -30,7 +30,9 @@ WIP Opencore EFI for ASUS Chromebook Flip C434TA-DSM4T running MacOS Sonoma (14)
 - [ ] Fix sleep/power issues
 - [x] WiFi-related issues with itlwm
 - [x] Update OpenCore
-- [ ] Fix OpenCore not booting
+- [x] Fix OpenCore not booting
+
+**Note: For some reason my OpenCore version is 1.0.7 (built on 11/19/25?)... I cannot find this release anywhere. Could've been a pre-release of some sort but who knows. 1.0.7 appears to be broken when I download the regular release. I am unsure as to where it came from so if anyone finds anything lmk!**
 
 Source: <https://docs.meghan6.com/docs/installingmacos/installing>
 
