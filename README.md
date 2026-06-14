@@ -28,6 +28,7 @@ WIP Opencore EFI for ASUS Chromebook Flip C434TA-DSM4T running MacOS Sonoma (14)
 
 - ~~[ ] Fix Audio~~ Doesn't work
 - [ ] Fix sleep/power issues
+- [x] Fix Bluetooth 
 - [x] WiFi-related issues with itlwm
 - [x] Update OpenCore
 - [x] Fix OpenCore not booting
